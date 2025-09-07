@@ -5,13 +5,44 @@
   <title>Demo TikTok Data</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 40px; 
+      text-align: center; 
+      background-color: #f9f9f9;
+    }
     h1 { color: #333; }
+    .btn-login {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #010101;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin: 20px 0;
+    }
+    .btn-login:hover {
+      background: #444;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
   <h1>Bienvenido a mi sitio de prueba</h1>
   <p>Este sitio se utiliza para el proyecto de recolección de datos de TikTok.</p>
-  <p><a href="terms.html">Términos de Servicio</a> | <a href="privacy.html">Política de Privacidad</a></p>
+  
+  <!-- Botón para iniciar sesión con TikTok -->
+  <p>
+    <a href="http://127.0.0.1:8000/login" class="btn-login">🔑 Iniciar sesión con TikTok</a>
+  </p>
+
+  <footer>
+    <a href="terms.html">Términos de Servicio</a> | 
+    <a href="privacy.html">Política de Privacidad</a>
+  </footer>
 </body>
 </html>
